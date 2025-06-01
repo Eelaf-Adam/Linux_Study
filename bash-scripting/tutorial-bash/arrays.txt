@@ -1,0 +1,20 @@
+#ARRAYS 
+
+MY_FIRST_LIST=(one two three four five)
+
+To print we use:
+
+(1)
+echo $MY_FIRST_LIST
+result: one 
+it will only print the first element of the list.
+
+(2)
+echo ${MY_FIRST_LIST[@]}
+result: one two three four five
+it will list all the elements.
+
+(3)
+echo ${MY_FIRST_LIST[0]}
+result: one
+it will print the first element using it's index (0).
