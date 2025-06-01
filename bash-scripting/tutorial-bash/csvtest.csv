@@ -1,0 +1,19 @@
+one,two,three
+
+#use of awk:
+awk -F, '{print $1}' csvtest.csv
+result: one
+
+other examples:
+(1)
+echo "Just get this word: Hello" | awk '{print $5}'
+result: Hello
+
+(2)
+echo "Just get this word: Hello" | awk -F: '{Print $2}' | cut -c2
+result: H
+
+(3)
+echo "Just get this word: Hello" | awk -F: '{Print $2}' | cut -c2-
+result: Hello
+
