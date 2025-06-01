@@ -1,0 +1,18 @@
+The fly files like no fly flies.
+A fly is an insect that has wings and a fly likes to eat leftovers.
+
+#How SED is used:
+(1)
+sed 's/fly/grasshopper/g' sedtest.txt
+
+Result:
+The grasshopper files like no grasshopper flies.
+A grasshopper is an insect that has wings and a grasshopper likes to eat leftovers.
+
+(2)
+sed -i.ORIGINAL 's/fly/grasshopper/g' sedtest.txt
+
+Result:
+inside this file "sedtest.txt.ORIGINAL"
+The fly files like no fly flies.
+A fly is an insect that has wings and a fly likes to eat leftovers.
