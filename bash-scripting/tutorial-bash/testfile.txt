@@ -1,0 +1,5 @@
+one two three
+
+#Use of awk
+awk '{print $1}' testfile.txt 
+result: one
