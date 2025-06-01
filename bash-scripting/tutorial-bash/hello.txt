@@ -1,0 +1,33 @@
+#OUTPUT/INPUT/REDIRECTION
+
+(1)
+#The following are the outpu of:
+echo Hello World! >> hello.txt
+echo Have a good day! >> hello.txt
+Hello World!
+Have a good day!
+
+(2)
+#The following override the output
+echo Hello world! > hello.text
+echo Have a good day >> hello.txt
+
+(3)
+wc -w hello.txt
+result: 6 hello.txt
+wc -w < hello.txt
+result: 6
+
+(4)
+cat << EOF
+> I will
+> write some 
+> text here
+> EOF
+I will
+write some
+text here
+
+(5)
+wc -w <<< "Hello there wordcount"
+3
