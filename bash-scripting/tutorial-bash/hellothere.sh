@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#VARIABLES
+
+FIRST_NAME=Eelaf
+LAST_NAME=Adam
+echo Hello $FIRST_NAME $LAST_NAME
