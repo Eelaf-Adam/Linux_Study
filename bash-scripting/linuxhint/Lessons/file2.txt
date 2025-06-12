@@ -1,0 +1,26 @@
+total 27
+drwxr-xr-x 1 USER 197121    0 Jun 12 10:55 .
+drwxr-xr-x 1 USER 197121    0 Jun  8 18:28 ..
+-rwxr-xr-x 1 USER 197121   93 Jun  8 21:28 break.sh
+-rwxr-xr-x 1 USER 197121  323 Jun  8 18:53 comment.sh
+-rwxr-xr-x 1 USER 197121  368 Jun  8 20:16 condition1_stat.sh
+-rwxr-xr-x 1 USER 197121  399 Jun  8 20:15 condition2_stat.sh
+-rwxr-xr-x 1 USER 197121  379 Jun  8 20:40 condition3_stat.sh
+-rwxr-xr-x 1 USER 197121  204 Jun  8 20:53 condition4_stat.sh
+-rwxr-xr-x 1 USER 197121  112 Jun  8 21:34 continue.sh
+-rw-r--r-- 1 USER 197121 1278 Jun 12 10:54 file.txt
+-rw-r--r-- 1 USER 197121    0 Jun 12 10:54 file1.txt
+-rw-r--r-- 1 USER 197121    0 Jun 12 10:55 file2.txt
+-rw-r--r-- 1 USER 197121    0 Jun 12 10:55 file3.txt
+-rwxr-xr-x 1 USER 197121   38 Jun  8 18:32 helloscript.sh
+-rwxr-xr-x 1 USER 197121  123 Jun  8 19:30 heredoc.sh
+-rwxr-xr-x 1 USER 197121   96 Jun  8 21:00 loops1.sh
+-rwxr-xr-x 1 USER 197121  155 Jun  8 21:07 loops2.sh
+-rwxr-xr-x 1 USER 197121  170 Jun  8 21:18 loops3a.sh
+-rwxr-xr-x 1 USER 197121   55 Jun  8 21:22 loops3b.sh
+-rwxr-xr-x 1 USER 197121  103 Jun  8 18:47 redirect_file.sh
+-rwxr-xr-x 1 USER 197121  109 Jun 12 10:34 script_input1.sh
+-rwxr-xr-x 1 USER 197121  111 Jun 12 10:34 script_input2.sh
+-rwxr-xr-x 1 USER 197121  106 Jun 12 10:32 script_input3.sh
+-rwxr-xr-x 1 USER 197121  106 Jun 12 10:44 script_input4.sh
+-rwxr-xr-x 1 USER 197121   44 Jun 12 10:55 script_output1.sh
